@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "contentEncoding": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string"
+    },
+    "metaPath": {
+      "type": "string"
+    },
+    "bodyPath": {
+      "type": "string"
+    }
+  },
+  "required": ["contentEncoding", "contentType", "metaPath", "bodyPath"]
+}

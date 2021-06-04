@@ -1,8 +1,8 @@
 const { createLogger, format, transports } = require("winston");
 
-const { envConst } = require("./env.const");
+const { envVar } = require("./env-var");
 
-const { NODE_ENV } = envConst;
+const { NODE_ENV } = envVar;
 
 const logger = createLogger({
   level: NODE_ENV,
