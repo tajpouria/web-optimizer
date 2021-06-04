@@ -1,0 +1,18 @@
+{
+  "name": "web-optimizer",
+  "version": "1.0.0",
+  "description": "Execute desired optimization operation on target content in response of events",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint **/*.js",
+    "fmt": "prettier --write **/*.{js,json,yml,yaml} --ignore-path=.prettierignore",
+    "fmt:check": "prettier --check **/*.{js,json,yml,yaml} --ignore-path=.prettierignore"
+  },
+  "author": "Pouria Taj",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "prettier": "^2.3.0"
+  }
+}
